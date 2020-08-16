@@ -1,25 +1,28 @@
 {
-  "name": "sneyra",
-  "version": "2.0.1",
-  "description": "Extension of Skyra - Music-only bot.",
-  "main": "src/Sneyra.js",
-  "scripts": {
-    "test:lint": "eslint --fix src",
-    "start": "node src/Sneyra.js"
+  "name": "evobot",
+  "version": "0.7.0",
+  "description": "Discord music bot built with discord.js",
+  "main": "index.js",
+  "author": "Erit Islami <eritislami@gmail.com>",
+  "private": true,
+  "homepage": "https://github.com/eritislami/evobot",
+  "repository": "github:eritislami/evobot",
+  "bugs": "https://github.com/eritislami/evobot/issues",
+  "engines": {
+    "node": ">=12.0.0"
   },
-  "author": "kyraNET",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "github:discordjs/discord.js",
-    "fs-nextra": "^0.4.5",
-    "klasa": "github:dirigeants/klasa",
-    "node-opus": "^0.3.2",
-    "rethinkdbdash": "^2.3.31",
-    "ytdl-core": "^0.29.7",
-    "ytdl-core-discord": "^1.0.3"
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.0.1",
+    "ffmpeg-static": "^4.2.3",
+    "lyrics-finder": "^21.0.5",
+    "simple-youtube-api": "^5.1.1",
+    "soundcloud-downloader": "^0.1.2",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^3.1.0",
+    "ytdl-core-discord": "^1.2.1"
   },
-  "devDependencies": {
-    "eslint": "^6.4.0",
-    "eslint-config-klasa": "github:dirigeants/klasa-lint"
+  "scripts": {
+    "start": "node index.js"
   }
 }
