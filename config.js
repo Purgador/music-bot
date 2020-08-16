@@ -1,4 +1,0 @@
-module.exports = {
-    token: 'Njk0MzQwMDMyNDgzNTU3NDQ2.XoKMiw.AOA9XOkCDvbKPCEfBITXqtqE1RQ',
-    GOOGLE_SEARCH: 'YOUR_YOUTUBE_API_SEARCH_TOKEN'
-};
